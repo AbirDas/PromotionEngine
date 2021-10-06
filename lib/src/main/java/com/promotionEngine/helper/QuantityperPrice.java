@@ -5,6 +5,14 @@ public class QuantityperPrice {
 	private int quantity = 0;
 	private int price = 0;
 	
+	public QuantityperPrice() {
+	}
+	
+	public QuantityperPrice(int quantity, int price) {
+		this.quantity = quantity;
+		this.price = price;
+	}
+	
 	public int getQuantity() {
 		return quantity;
 	}
