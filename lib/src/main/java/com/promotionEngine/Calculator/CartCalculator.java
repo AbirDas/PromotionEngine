@@ -18,7 +18,7 @@ public class CartCalculator {
 		return count(price.calcuatePrice());
 	}
 	
-	public int count(Map<String, QuantityperPrice> price) {
+	private int count(Map<String, QuantityperPrice> price) {
 		int total = 0;
 		for(String key : price.keySet()) {
 			total += price.get(key).getPrice();

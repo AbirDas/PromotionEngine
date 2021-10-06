@@ -24,7 +24,7 @@ public class ActivePromotionInfo {
 	}
 	
 	public static String getJointUnitName(String no) {
-		if((Unit_joint_1).equalsIgnoreCase("Unit_joint_"+no.trim())) return Unit_joint_1;
+		if(("Unit_joint_1").equalsIgnoreCase("Unit_joint_"+no.trim())) return Unit_joint_1;
 		return null;
 	}
 	
