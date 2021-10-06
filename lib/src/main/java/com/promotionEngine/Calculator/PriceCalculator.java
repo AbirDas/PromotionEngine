@@ -61,7 +61,6 @@ public class PriceCalculator {
 	public void checkForJointPromotion(String no) {
 		String[] units = ActivePromotionInfo.getJointUnitName(no).split("&");
 		boolean isJointPromotionAvailable = true;
-		StringBuilder sb = new StringBuilder();
 		
 		while(true) {
 			for(String unit : units) {
