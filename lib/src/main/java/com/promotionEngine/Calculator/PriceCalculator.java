@@ -87,4 +87,8 @@ public class PriceCalculator {
 			}
 		}
 	}
+	
+	public Map<String, QuantityperPrice> getCalculatePrice(){
+		return calculatePrice;
+	}
 }
