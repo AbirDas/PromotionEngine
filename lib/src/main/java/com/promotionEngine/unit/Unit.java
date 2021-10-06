@@ -1,16 +1,16 @@
 package com.promotionEngine.unit;
 
-public class DUnit {
+import com.promotionEngine.helper.IUnit;
 
-	private String unitName = "D";
-	private int unitQuantity = 1;
-	private int price = 15;
+public class Unit implements IUnit {
+	private String unitName = null;
+	private int unitQuantity = 0;
+	private int price = 0;
 	
-	public DUnit() {
+	public Unit() {
 	}
 	
-	//To change the value price later stage
-	public DUnit(String unitName, int unitQuantity, int price) {
+	public Unit(String unitName, int unitQuantity, int price) {
 		this.unitName = unitName;
 		this.unitQuantity = unitQuantity;
 		this.price = price;
