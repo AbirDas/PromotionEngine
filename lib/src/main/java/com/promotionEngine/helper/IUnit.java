@@ -1,7 +1,9 @@
 package com.promotionEngine.helper;
 
-/**
- * Marker interface
- */
+
 public interface IUnit {
+
+	public String getUnitName();
+	public int getUnitQuantity();
+	public int getPrice();
 }
